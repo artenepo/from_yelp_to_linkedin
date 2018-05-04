@@ -1,0 +1,13 @@
+{
+    "name": "Yelp -> LinkedIn",
+    "version": "1.0",
+    "description": "Have a button for LinkedIn search on Yelp",
+    "content_scripts": [
+      {
+        "matches": ["https://www.yelp.com/biz/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "manifest_version": 2
+ }
